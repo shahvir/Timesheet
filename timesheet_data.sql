@@ -1,0 +1,15 @@
+USE timesheet;
+INSERT INTO employee(first_name , last_name , user_name , password ) VALUE('Maziar','Bastani','Maz_Bas','123456');
+INSERT INTO employee(first_name , last_name , user_name , password ) VALUE('Ali','Ashouriha','Ali_Ash','234567');
+INSERT INTO client(first_name, last_name) VALUE('Brad','McNealy');
+INSERT INTO client(first_name, last_name) VALUE('Enshan','Zhao');
+INSERT INTO client(first_name, last_name) VALUE('Emmy','Miyawaki');
+INSERT INTO client(first_name, last_name) VALUE('David','Spaford');
+INSERT INTO project(name, address, client_first_name , client_last_name) VALUE('McNealu\'s residence', '1223 Emeralv Bay' , 'Brad', 'McNealy');
+INSERT INTO project(name, address, client_first_name , client_last_name) VALUE('Red Dragon' ,'680 South Coast Highway', 'Enshan', 'Zhao');
+INSERT INTO project(name, address, client_first_name , client_last_name) VALUE('Cooking School', '670 South Coast Highway', 'Enshan' , 'Zhao');
+INSERT INTO project(name, address, client_first_name , client_last_name) VALUE('Miyawaki\'s residence', '8 Lagunita', 'Emmy', 'Miyawaki');
+INSERT INTO project(name, address, client_first_name , client_last_name) VALUE('Spaford\'s residence', '16 Blue Lagoon ', 'David', 'Spaford');
+SELECT * FROM employee;
+SELECT * FROM project;
+SELECT * FROM client;
